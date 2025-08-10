@@ -5,7 +5,9 @@
   --color-secondary: #5d5d5d;
   --color-border: #caccc4;
   --color-danger: #dc3545;
+  --color-warning: #F79009;
   --color-info: #1e1e1e;
+  --text-muted: #838789;
   --standard-height: 43px;
   --standard-border: 20px;
 }
@@ -22,4 +24,10 @@ body {
 }
 input::placeholder {
   color: var(--color-info);
+}
+.row {
+  margin: 0;
+}
+.text-muted {
+  color: var(--text-muted) !important;
 }

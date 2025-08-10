@@ -5,5 +5,4 @@
 </template>
 
 <script setup>
-// مفيش حاجة خاصة هنا، كله Bootstrap classes
 </script>
